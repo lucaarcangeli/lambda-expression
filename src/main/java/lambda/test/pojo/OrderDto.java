@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author Cinello s.r.l.
+ * @author Luca Arcangeli (luca.arcangeli@gmail.com)
  */
 public class OrderDto {
 

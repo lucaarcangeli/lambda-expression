@@ -3,7 +3,7 @@ package lambda.test.pojo;
 import java.util.Date;
 
 /**
- * @author Cinello s.r.l.
+ * @author Luca Arcangeli (luca.arcangeli@gmail.com)
  */
 public class UserDto {
 

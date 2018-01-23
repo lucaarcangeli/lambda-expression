@@ -12,12 +12,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lambda.test.pojo.OrderDto;
 
 /**
- * @author Cinello s.rl. - 19 gen 2018
+ * @author Luca Arcangeli (luca.arcangeli@gmail.com)
  */
 public class MainClass {
 
 	/**
-	 * @author Cinello s.rl. - 19 gen 2018
+	 * @author Luca Arcangeli (luca.arcangeli@gmail.com) - 19 gen 2018
 	 * @param args
 	 */
 	@SuppressWarnings("unused")
@@ -61,6 +61,11 @@ public class MainClass {
 	}
 
 
+	/**
+	 * @author Luca Arcangeli (luca.arcangeli@gmail.com)
+	 * @param value
+	 * @return New reusable predicate
+	 */
 	public static Predicate<OrderDto> getPredicate(String value) {
 		return o -> o.getTransactionId().startsWith(value);
 	}
